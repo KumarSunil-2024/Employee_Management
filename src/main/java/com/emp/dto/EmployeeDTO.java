@@ -11,8 +11,12 @@ import lombok.Setter;
 @AllArgsConstructor
 public class EmployeeDTO {
 
-	public EmployeeDTO(Long id2, String firstName2, String lastName2, String email2) {
-		// TODO Auto-generated constructor stub
+	public EmployeeDTO(Long id, String firstName, String lastName, String email) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
 	}
 	public EmployeeDTO() {
 		
